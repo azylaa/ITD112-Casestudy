@@ -1,0 +1,34 @@
+/* Bar.css */
+.bar-graph-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd;    /* Subtle border */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 80%;               /* Adjust width to fit the page */
+    max-width: 900px;       
+    
+  }
+
+  .bar-wrapper {
+    width: 100%;  /* Set the width of the graph */
+    height: 300px; /* Set the height of the graph */
+  }
+  
+  .bar-graph-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;              /* Dark text for contrast */
+    text-align: center;
+  }
+  
+  canvas {
+    width: 100% !important;   /* Ensure the canvas stretches to container */
+    height: auto !important; /* Maintain aspect ratio */
+  }
+  
